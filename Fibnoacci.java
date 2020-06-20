@@ -1,6 +1,7 @@
 public class Fibnoacci {
 	public static void main(String[] args) {
-		System.out.println(Fibnoacci.of(3));
+		for (int i = 1; i <= 200; i++)
+			System.out.println(Fibnoacci.of(i));
 	}
 
 	public static int of(int index) {
